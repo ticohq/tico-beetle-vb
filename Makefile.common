@@ -67,11 +67,11 @@ SOURCES_C   += \
 	$(MEDNAFEN_DIR)/state.c \
 	$(MEDNAFEN_DIR)/settings.c
 
-ifneq ($(STATIC_LINKING), 1)
+# Upstream leaves these out of static builds because RetroArch exports them;
+# tico is the frontend here and provides none, so they are always in.
 SOURCES_C += \
 	$(LIBRETRO_COMM_DIR)/compat/compat_strl.c \
 	$(LIBRETRO_COMM_DIR)/compat/compat_snprintf.c
-endif
 endif
 
 ifeq ($(HAVE_GLES),1)

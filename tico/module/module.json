@@ -1,0 +1,34 @@
+{
+  "id": "beetle_vb",
+  "name": "Beetle VB",
+  "nro": "tico-beetle-vb.nro",
+  "launch": "\"{nro}\" \"{slug}\" \"{rom}\" \"{title}\"",
+  "settings": "config/modules/beetle_vb/settings.json",
+  "config_file": "beetle_vb.jsonc",
+  "system_dir": "beetle_vb",
+  "is_libretro": true,
+  "achievements": true,
+  "systems": [
+    {
+      "slug": "vb",
+      "title": "Virtual Boy",
+      "short_title": "VB",
+      "extensions": [
+        ".vb",
+        ".vboy",
+        ".bin",
+        ".zip",
+        ".7z",
+        ".rar"
+      ],
+      "games_file": "vb.dat",
+      "retroachievements_id": 28,
+      "colors": {
+        "start": "E64A4A",
+        "end": "A8325F",
+        "start_dark": "A83636",
+        "end_dark": "7A2445"
+      }
+    }
+  ]
+}

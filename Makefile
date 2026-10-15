@@ -278,7 +278,9 @@ else ifeq ($(platform), libnx)
 	DEFINES := -DSWITCH=1 -U__linux__ -U__linux -DRARCH_INTERNAL
 	CFLAGS  :=  $(DEFINES) -g -O3 -fPIE -I$(LIBNX)/include/ -ffunction-sections -fdata-sections -ftls-model=local-exec -Wl,--allow-multiple-definition -specs=$(LIBNX)/switch.specs
 	CFLAGS += $(INCDIRS)
-	CFLAGS  += $(INCLUDE)  -D__SWITCH__
+	CFLAGS  += $(INCLUDE)  -D__SWITCH__ -DHAVE_LIBNX
+	# tico links the core into an NRO built with these (TLS through -mtp=soft)
+	CFLAGS  += -march=armv8-a -mtune=cortex-a57 -mtp=soft
 	CXXFLAGS := $(ASFLAGS) $(CFLAGS) -fno-rtti -fno-exceptions -std=gnu++11
 	CFLAGS += -std=gnu11
 	STATIC_LINKING = 1
