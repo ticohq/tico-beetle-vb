@@ -27,6 +27,16 @@ It adds:
 
 ----------
 
+## Credits
+
+This fork is built on top of Beetle VB, the libretro port of Mednafen's Virtual Boy module.
+All core emulation work belongs to the Mednafen authors and contributors.
+
+- **Mednafen website** — https://mednafen.github.io
+- **libretro Beetle VB** — https://github.com/libretro/beetle-vb-libretro
+
+----------
+
 ## A Note
 
 A lot of work in this scene disappears over time — not because it lacked value, but because it was never shared.
