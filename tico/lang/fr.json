@@ -166,5 +166,6 @@
     "settings_beetle_vb_value_unlimited": "Illimité",
     "settings_beetle_vb_value_up": "Haut",
     "settings_beetle_vb_value_vertical_line_interlaced": "Entrelacé vertical",
-    "settings_beetle_vb_value_yellow_blue": "Jaune et bleu"
+    "settings_beetle_vb_value_yellow_blue": "Jaune et bleu",
+    "emulator_quick_menu_tip": "Appuyez sur {plus} et {minus} ensemble pour ouvrir le menu rapide"
 }

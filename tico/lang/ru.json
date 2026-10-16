@@ -165,5 +165,6 @@
     "settings_beetle_vb_value_unlimited": "Без ограничений",
     "settings_beetle_vb_value_up": "Вверх",
     "settings_beetle_vb_value_vertical_line_interlaced": "Чересстрочно по вертикали",
-    "settings_beetle_vb_value_yellow_blue": "Жёлтый и синий"
+    "settings_beetle_vb_value_yellow_blue": "Жёлтый и синий",
+    "emulator_quick_menu_tip": "Нажмите {plus} и {minus} вместе, чтобы открыть быстрое меню"
 }

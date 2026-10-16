@@ -123,5 +123,6 @@
     "settings_beetle_vb_tab_controls": "Controls",
     "settings_beetle_vb_tab_display": "Display",
     "settings_beetle_vb_tab_system": "System",
-    "settings_beetle_vb_tab_video": "Video"
+    "settings_beetle_vb_tab_video": "Video",
+    "emulator_quick_menu_tip": "Press {plus} and {minus} together to open the quick menu"
 }
